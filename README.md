@@ -50,5 +50,6 @@ Ensure you have [Node.js](https://nodejs.org/) installed on your local machine.
 
 ## Snippets Of UI
 
-<img width="1883" height="1012" alt="image" src="https://github.com/user-attachments/assets/c711e4ab-3be2-455c-b0b2-2a087b337534" />
+<img width="1860" height="1010" alt="image" src="https://github.com/user-attachments/assets/66d1411c-ac71-47ec-880b-9b3f5bc64247" />
+
 <img width="1785" height="1006" alt="image" src="https://github.com/user-attachments/assets/7005aa9b-171d-4d4e-b416-ff88f2ad9cfc" />
