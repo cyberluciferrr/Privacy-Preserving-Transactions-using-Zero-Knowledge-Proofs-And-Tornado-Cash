@@ -1,56 +1,16 @@
-# Privacy Preserving Transactions with ZKP (Tornado Cash Simulation)
+# React + Vite
 
-A sleek, tactile, single page React application demonstrating the core cryptographic principles of **Zero Knowledge Proofs (ZKP)** and **Anonymity Mixing Pools** modeled after Tornado Cash architecture. Built for a 5th semester Blockchain Assignment.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## Key Features & Architecture
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-*   **Commitment Phase (Deposit):** Generates a random cryptographic secret combined with a user defined **Nullifier** to construct a deterministic SHA 256 hash commitment deposited directly into the visual ledger pool.
-*   **The Mixing Pool (Anonymity Set):** Blends user transactions natively with pre seeded structural commitments, breaking direct public ledger linkability.
-*   **Proof Phase (ZKP Simulation):** Demonstrates membership proof generation. Prove knowledge of an active unspent deposit commitment without exposing the underlying private secret key.
-*   **Verification & Prevention Layer:** Implements strict cryptographic network verification logic. Tracks a ledger of spent nullifiers to provide programmatic **Double Spending Prevention** and active malicious/forged proof rejection.
-*   **Interactive MiniMerkle Tree:** Visually traces tree updates, mapping leaf insertions down to dynamic Merkle Root recalculation.
+## React Compiler
 
----
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Tech Stack & UI Philosophy
+## Expanding the ESLint configuration
 
-*   **Core Framework:** React 19 + Vite
-*   **Design System:** Tailwind CSS (Tactile High Contrast Enterprise Dark Theme)
-*   **Iconset:** Lucide React
-*   **Philosophy:** Anti generic AI styling. Employs crisp border definitions, tight context-aware component clusters, zero structural layout waste, and responsive state micro interactions.
-
----
-
-## Quick Start Guide
-
-### Prerequisites
-Ensure you have [Node.js](https://nodejs.org/) installed on your local machine.
-
-### Installation & Launch
-1. Clone the repository and navigate to the project root:
-   ```bash
-   git clone <your-repository-url>
-   cd tornado-demo
-   ```
-2. Install the necessary development and design assets:
-   ```bash
-   npm install
-   npm install -D tailwindcss postcss autoprefixer
-   npm install lucide-react
-   ```
-3. Run the local development server:
-   ```bash
-   npm run dev
-   ```
-4. Open [http://localhost:5173](http://localhost:5173) in your browser to interact with the application. (whatever the localhost url you will get)
-
----
-
-## Snippets Of UI
-
-<img width="1883" height="1012" alt="image" src="https://github.com/user-attachments/assets/c711e4ab-3be2-455c-b0b2-2a087b337534" />
-<img width="1785" height="1006" alt="image" src="https://github.com/user-attachments/assets/7005aa9b-171d-4d4e-b416-ff88f2ad9cfc" />
-
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
