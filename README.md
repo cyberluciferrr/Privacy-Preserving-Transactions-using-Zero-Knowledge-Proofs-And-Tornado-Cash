@@ -31,7 +31,7 @@ Ensure you have [Node.js](https://nodejs.org/) installed on your local machine.
 ### Installation & Launch
 1. Clone the repository and navigate to the project root:
    ```bash
-   git clone <your-repository-url>
+   git clone https://github.com/cyberluciferrr/Privacy-Preserving-Transactions-using-Zero-Knowledge-Proofs-And-Tornado-Cash
    cd tornado-demo
    ```
 2. Install the necessary development and design assets:
