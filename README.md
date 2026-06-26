@@ -1,25 +1,25 @@
 # Privacy Preserving Transactions with ZKP (Tornado Cash Simulation)
 
-A sleek, tactile, single-page React application demonstrating the core cryptographic principles of **Zero-Knowledge Proofs (ZKP)** and **Anonymity Mixing Pools** modeled after Tornado Cash architecture. Built for a 5th-semester Blockchain Assignment.
+A sleek, tactile, single page React application demonstrating the core cryptographic principles of **Zero Knowledge Proofs (ZKP)** and **Anonymity Mixing Pools** modeled after Tornado Cash architecture. Built for a 5th semester Blockchain Assignment.
 
 ---
 
 ## Key Features & Architecture
 
-*   **Commitment Phase (Deposit):** Generates a random cryptographic secret combined with a user-defined **Nullifier** to construct a deterministic SHA-256 hash commitment deposited directly into the visual ledger pool.
-*   **The Mixing Pool (Anonymity Set):** Blends user transactions natively with pre-seeded structural commitments, breaking direct public ledger linkability.
+*   **Commitment Phase (Deposit):** Generates a random cryptographic secret combined with a user defined **Nullifier** to construct a deterministic SHA 256 hash commitment deposited directly into the visual ledger pool.
+*   **The Mixing Pool (Anonymity Set):** Blends user transactions natively with pre seeded structural commitments, breaking direct public ledger linkability.
 *   **Proof Phase (ZKP Simulation):** Demonstrates membership proof generation. Prove knowledge of an active unspent deposit commitment without exposing the underlying private secret key.
-*   **Verification & Prevention Layer:** Implements strict cryptographic network verification logic. Tracks a ledger of spent nullifiers to provide programmatic **Double-Spending Prevention** and active malicious/forged proof rejection.
-*   **Interactive Mini-Merkle Tree:** Visually traces tree updates, mapping leaf insertions down to dynamic Merkle Root re-calculation.
+*   **Verification & Prevention Layer:** Implements strict cryptographic network verification logic. Tracks a ledger of spent nullifiers to provide programmatic **Double Spending Prevention** and active malicious/forged proof rejection.
+*   **Interactive MiniMerkle Tree:** Visually traces tree updates, mapping leaf insertions down to dynamic Merkle Root recalculation.
 
 ---
 
 ## Tech Stack & UI Philosophy
 
 *   **Core Framework:** React 19 + Vite
-*   **Design System:** Tailwind CSS (Tactile High-Contrast Enterprise Dark Theme)
+*   **Design System:** Tailwind CSS (Tactile High Contrast Enterprise Dark Theme)
 *   **Iconset:** Lucide React
-*   **Philosophy:** Anti-generic AI styling. Employs crisp border definitions, tight context-aware component clusters, zero structural layout waste, and responsive state micro-interactions.
+*   **Philosophy:** Anti generic AI styling. Employs crisp border definitions, tight context-aware component clusters, zero structural layout waste, and responsive state micro interactions.
 
 ---
 
